@@ -20,7 +20,7 @@ System.config({
     "core-js": "npm:core-js@0.8.1",
     "json": "github:systemjs/plugin-json@0.1.0",
     "ramda": "npm:ramda@0.13.0",
-    "source": 'scripts',
+    "source": "scripts",
     "github:jspm/nodelibs-process@0.1.1": {
       "process": "npm:process@0.10.1"
     },
@@ -32,3 +32,4 @@ System.config({
     }
   }
 });
+
