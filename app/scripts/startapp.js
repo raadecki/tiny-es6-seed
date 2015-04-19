@@ -1,7 +1,8 @@
 import hello from 'source/hello';
 
-export default function startapp() {
+export default function startapp(document) {
     //bootstrap code here
 
-    console.log(hello('World'));
+    var hwDiv = document.querySelector('.hello-world');
+    hwDiv.innerHTML = hello('World');
 }

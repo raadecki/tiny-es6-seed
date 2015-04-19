@@ -5,12 +5,13 @@
     <title>Tiny ES6 Seed</title>
 </head>
 <body>
+    <div class="hello-world"></div>
     <script src="jspm_packages/system.js"></script>
     <script src="jspm.conf.js"></script>
     <script>
         System.import('source/startapp')
         .then(function(startapp) {
-            startapp.default();
+            startapp.default(document);
         })
         .catch(function(err) {
             console.log(err);

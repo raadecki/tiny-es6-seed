@@ -21,7 +21,7 @@ Simple es6 project seed that provides:
 * run `npm install` from project folder
 * run `gulp`
 * open browser and type: `localhost:9000`
-* `Hello World` should be visible in console
+* `Hello World` should be visible on screen
 
 ## Tests:
 * run `gulp unit` from project folder
