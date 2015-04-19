@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tiny ES6 Seed</title>
+</head>
+<body>
+    <script src="jspm_packages/system.js"></script>
+    <script src="jspm.conf.js"></script>
+    <script>
+        System.import('source/startapp')
+        .then(function(startapp) {
+            startapp.default();
+        })
+        .catch(function(err) {
+            console.log(err);
+        });
+    </script>
+</body>
+</html>
